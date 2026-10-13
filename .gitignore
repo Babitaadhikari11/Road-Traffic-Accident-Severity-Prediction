@@ -1,0 +1,91 @@
+# =========================
+# Dataset - Do Not Push
+# =========================
+data/
+
+# =========================
+# Virtual Environments
+# =========================
+venv/
+.venv/
+env/
+ENV/
+
+# =========================
+# Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# =========================
+# Jupyter Notebook
+# =========================
+.ipynb_checkpoints/
+
+# =========================
+# IDE / Editors
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# macOS
+# =========================
+.DS_Store
+
+# =========================
+# Environment Variables / Secrets
+# =========================
+.env
+.env.*
+*.env
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
+
+# =========================
+# Python Packaging
+# =========================
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Testing / Coverage
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# Machine Learning Model Files
+# Uncomment if you don't want trained models on GitHub
+# =========================
+# *.pkl
+# *.joblib
+# *.h5
+# *.keras
+
+# =========================
+# Other Dataset Formats
+# Uncomment if needed
+# =========================
+# *.csv
+# *.xlsx
+# *.parquet
+# *.arff
+
+# =========================
+# Temporary Files
+# =========================
+*.tmp
+*.temp
+*.swp
+*~
